@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Diagnostics;
 
 namespace Domain
 {
-    class Contracts
+    public static class Contracts
     {
+        [DebuggerStepThrough]
+        public static void Require(bool precondition, string message = "")
+        {
+            if (!precondition)
+            {
+                throw new ContractException(message);
+            }
+        }
     }
 }

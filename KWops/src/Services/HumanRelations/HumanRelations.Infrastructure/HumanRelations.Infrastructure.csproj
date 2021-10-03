@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Domain\Domain.csproj" />
     <ProjectReference Include="..\HumanRelations.Domain\HumanRelations.Domain.csproj" />
     <ProjectReference Include="..\HumanRelations.Logic\HumanRelations.Logic.csproj" />
   </ItemGroup>

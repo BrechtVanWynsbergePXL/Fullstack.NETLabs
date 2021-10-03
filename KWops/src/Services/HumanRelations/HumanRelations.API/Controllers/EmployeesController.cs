@@ -26,12 +26,14 @@ namespace HumanRelations.API.Controllers
         [Route("/employees/{number}")]
         public IActionResult GetEmployeeById(string number)
         {
+            //IEmployee employee = (IEmployee)_employeeRepository.GetByNumberAsync(number);
+            //return (IActionResult)employee;
             return (IActionResult)_employeeRepository.GetByNumberAsync(number);
         }
 
         [HttpPost]
         [Route("/employees")]
-        public IActionResult PostEmployee(Employee employee)
+        public IActionResult PostEmployee(IEmployee employee)
         {
             return (IActionResult)_employeeRepository.AddAsync(employee);
         }

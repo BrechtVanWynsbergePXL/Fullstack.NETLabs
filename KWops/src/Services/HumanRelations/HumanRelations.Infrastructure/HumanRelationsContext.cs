@@ -9,7 +9,7 @@ namespace HumanRelations.Infrastructure
 {
     public class HumanRelationsContext : DbContext
     {
-        public DbSet<Employee> Employee { get; set; }
+        public DbSet<IEmployee> Employee { get; set; }
 
         public HumanRelationsContext(DbContextOptions options) : base(options)
         {
@@ -17,18 +17,8 @@ namespace HumanRelations.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>()
+            modelBuilder.Entity<IEmployee>()
                 .HasKey(employee => employee.Number);
-        }
-    }
-
-    public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
-    {
-        public void Configure(EntityTypeBuilder<Employee> builder)
-        {
-            builder.Property(e => e.Number).HasMaxLength(11).IsRequired();
-            builder.Property(e => e.FirstName).IsRequired();
-            builder.Property(e => e.LastName).IsRequired();
         }
     }
 }

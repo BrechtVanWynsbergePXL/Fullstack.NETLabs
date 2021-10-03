@@ -4,7 +4,8 @@ using System.Text;
 
 namespace HumanRelations.Domain
 {
-    class IEmployeeFactory
+    public interface IEmployeeFactory
     {
+        IEmployee CreateNew(string lastName, string firstName, DateTime startDate, int sequence);
     }
 }

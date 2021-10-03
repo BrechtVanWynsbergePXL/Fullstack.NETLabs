@@ -2,6 +2,7 @@
 using HumanRelations.Logic;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,14 +16,19 @@ namespace HumanRelations.Infrastructure
             _humanRelationsContext = context;
         }
 
-        public async Task AddAsync(Employee newEmployee)
+        public async Task AddAsync(IEmployee newEmployee)
         {
             await _humanRelationsContext.AddAsync(newEmployee);
         }
 
-        public async Task<Employee> GetByNumberAsync(string number)
+        public async Task<IEmployee> GetByNumberAsync(EmployeeNumber number)
         {
             return await _humanRelationsContext.Employee.FindAsync(number);
+        }
+
+        public async Task<int> GetNumberOfStartersOnAsync(DateTime startTime)
+        {
+            return await Task.FromResult(_humanRelationsContext.Employee.Count(e => e.StartDate == startTime));
         }
     }
 }
