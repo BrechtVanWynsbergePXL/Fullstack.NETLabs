@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wqzN73hWt2mI2Ug8OUFdILb/odzE9h1PJzFlU8mpxYE43jNJVluKLjlVm+49HpGRDL4IHn7of8WqfdRZktH+1Q==",
+  "dgSpecHash": "8mtlBOy55d+M5ca48t7e436IZ0qpRKClE1+gvGIb2httv2q8naIK2e8ukMsk72yavf3HOU6Cui8FcX1b2pZdLg==",
   "success": true,
   "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj",
   "expectedPackageFiles": [

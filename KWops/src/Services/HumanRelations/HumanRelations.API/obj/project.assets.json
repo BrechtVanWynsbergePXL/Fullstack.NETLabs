@@ -1637,6 +1637,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Domain": "1.0.0",
           "HumanRelations.Domain": "1.0.0",
           "HumanRelations.Logic": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",

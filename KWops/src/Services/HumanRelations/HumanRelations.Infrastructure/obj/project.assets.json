@@ -7232,6 +7232,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "Domain >= 1.0.0",
       "HumanRelations.Domain >= 1.0.0",
       "HumanRelations.Logic >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
@@ -7270,6 +7271,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj"
+            },
             "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
               "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
             },
