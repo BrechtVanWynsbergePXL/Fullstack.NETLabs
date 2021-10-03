@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "HumanRelations.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/HumanRelations.Domain.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../Domain/Domain.csproj",
+      "msbuildProject": "../../../../Domain/Domain.csproj"
+    },
     "HumanRelations.Domain/1.0.0": {
       "type": "project",
       "path": "../HumanRelations.Domain/HumanRelations.Domain.csproj",
