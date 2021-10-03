@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "HumanRelations.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/HumanRelations.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HumanRelations.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HumanRelations.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HumanRelations.Domain/HumanRelations.Domain.csproj",
+      "msbuildProject": "../HumanRelations.Domain/HumanRelations.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "HumanRelations.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\11901860\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
+      "projectName": "HumanRelations.Logic",
+      "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
+      "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
+      "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\11901860\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
+              "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

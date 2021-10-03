@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = HumanRelations.Domain
+build_property.ProjectDir = C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Domain\

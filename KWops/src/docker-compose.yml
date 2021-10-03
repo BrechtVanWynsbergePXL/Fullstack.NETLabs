@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  humanrelations.api:
+    image: ${DOCKER_REGISTRY-}humanrelationsapi
+    build:
+      context: .
+      dockerfile: Services/HumanRelations/HumanRelations.API/Dockerfile
+    depends_on: 
+    - sqldata
+
+  sqldata:
+    image: mrc.microsoft.com/mssql/server:2019-latest
+     

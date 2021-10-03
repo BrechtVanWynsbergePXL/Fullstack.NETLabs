@@ -1,0 +1,13 @@
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\HumanRelations.Logic.deps.json
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\HumanRelations.Logic.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\HumanRelations.Logic.pdb
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\HumanRelations.Domain.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\HumanRelations.Domain.pdb
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.csproj.CopyComplete
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.pdb

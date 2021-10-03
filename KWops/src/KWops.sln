@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{81D5D0F8-0BF1-447A-8981-519E42A5B951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HumanRelations", "HumanRelations", "{CBE7AEBF-3E04-4844-AF2C-C571AA5B210D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanRelations.API", "Services\HumanRelations\HumanRelations.API\HumanRelations.API.csproj", "{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanRelations.Domain", "Services\HumanRelations\HumanRelations.Domain\HumanRelations.Domain.csproj", "{58DDA378-C788-4280-A4B6-DC4874EB6FF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanRelations.Logic", "Services\HumanRelations\HumanRelations.Logic\HumanRelations.Logic.csproj", "{DF501477-E855-4326-A29C-3555ACCB174F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanRelations.Infrastructure", "Services\HumanRelations\HumanRelations.Infrastructure\HumanRelations.Infrastructure.csproj", "{007C23DC-0BBE-4682-AC11-AE12A942CEC8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{71694E83-B2A8-4C42-812F-1CFA9AD3E3AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DDA378-C788-4280-A4B6-DC4874EB6FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DDA378-C788-4280-A4B6-DC4874EB6FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DDA378-C788-4280-A4B6-DC4874EB6FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DDA378-C788-4280-A4B6-DC4874EB6FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF501477-E855-4326-A29C-3555ACCB174F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF501477-E855-4326-A29C-3555ACCB174F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF501477-E855-4326-A29C-3555ACCB174F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF501477-E855-4326-A29C-3555ACCB174F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007C23DC-0BBE-4682-AC11-AE12A942CEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007C23DC-0BBE-4682-AC11-AE12A942CEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007C23DC-0BBE-4682-AC11-AE12A942CEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007C23DC-0BBE-4682-AC11-AE12A942CEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71694E83-B2A8-4C42-812F-1CFA9AD3E3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71694E83-B2A8-4C42-812F-1CFA9AD3E3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71694E83-B2A8-4C42-812F-1CFA9AD3E3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71694E83-B2A8-4C42-812F-1CFA9AD3E3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBE7AEBF-3E04-4844-AF2C-C571AA5B210D} = {81D5D0F8-0BF1-447A-8981-519E42A5B951}
+		{B043C8F6-DEAB-4A9A-9FA3-7DE0F5438C89} = {CBE7AEBF-3E04-4844-AF2C-C571AA5B210D}
+		{58DDA378-C788-4280-A4B6-DC4874EB6FF6} = {CBE7AEBF-3E04-4844-AF2C-C571AA5B210D}
+		{DF501477-E855-4326-A29C-3555ACCB174F} = {CBE7AEBF-3E04-4844-AF2C-C571AA5B210D}
+		{007C23DC-0BBE-4682-AC11-AE12A942CEC8} = {CBE7AEBF-3E04-4844-AF2C-C571AA5B210D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8899E75F-755D-496D-82EF-B87B9A73071F}
+	EndGlobalSection
+EndGlobal
