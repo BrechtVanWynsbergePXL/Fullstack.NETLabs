@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wyIyBwBRmWpZ7I8e6wdiIHfG2cNDHNS8qLBxmikUmCeI5AiAMrlB38ABBrt6WopjmKzZI1XVboUmIrqGUplc6w==",
+  "success": true,
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11901860\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\11901860\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
