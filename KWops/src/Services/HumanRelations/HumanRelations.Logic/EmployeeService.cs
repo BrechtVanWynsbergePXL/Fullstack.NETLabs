@@ -17,10 +17,12 @@ namespace HumanRelations.Logic
             _employeeRepository = employeeRepository;
         }
 
-        public Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)
+        public async Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)
         {
-            int sequence = _employeeRepository.GetNumberOfStartersOnAsync(startDate);
-            _employeeFactory.CreateNew(lastName, firstName, startDate, );
+            int sequence = await _employeeRepository.GetNumberOfStartersOnAsync(startDate);
+            IEmployee newEmployee = _employeeFactory.CreateNew(lastName, firstName, startDate, sequence + 1);
+            await _employeeRepository.AddAsync(newEmployee);
+            return newEmployee;
         }
     }
 }
