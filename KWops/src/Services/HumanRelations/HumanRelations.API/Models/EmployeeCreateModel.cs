@@ -7,5 +7,8 @@ namespace HumanRelations.API.Models
 {
     public class EmployeeCreateModel
     {
+        public string FirstName { get; set; }
+        public string  LastName { get; set; }
+        public DateTime StartTime { get; set; }
     }
 }

@@ -1,4 +1,6 @@
+using HumanRelations.Domain;
 using HumanRelations.Infrastructure;
+using HumanRelations.Logic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -52,6 +54,11 @@ namespace HumanRelations.API
                         errorNumbersToAdd: null);
                 });
             });
+
+            services.AddScoped<HumanRelationsDbInitializer>();
+            services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddSingleton<IEmployeeFactory, Employee.Factory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

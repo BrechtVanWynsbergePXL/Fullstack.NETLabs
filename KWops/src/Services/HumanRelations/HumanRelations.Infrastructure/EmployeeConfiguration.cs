@@ -7,7 +7,7 @@ using System.Text;
 
 namespace HumanRelations.Infrastructure
 {
-    public class EmployeeConfiguration : IEntityTypeConfiguration<IEmployee>
+    internal class EmployeeConfiguration : IEntityTypeConfiguration<IEmployee>
     {
         public void Configure(EntityTypeBuilder<IEmployee> builder)
         {
