@@ -15,7 +15,15 @@
           "HumanRelations.Logic.dll": {}
         }
       },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
       "HumanRelations.Domain/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "HumanRelations.Domain.dll": {}
         }
@@ -24,6 +32,11 @@
   },
   "libraries": {
     "HumanRelations.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

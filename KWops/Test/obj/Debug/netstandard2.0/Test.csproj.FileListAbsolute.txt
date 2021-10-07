@@ -1,0 +1,10 @@
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\bin\Debug\netstandard2.0\Test.deps.json
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\bin\Debug\netstandard2.0\Test.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\bin\Debug\netstandard2.0\Test.pdb
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\Test\obj\Debug\netstandard2.0\Test.pdb

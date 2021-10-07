@@ -65,3 +65,8 @@ C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.A
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\ref\HumanRelations.API.dll
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\HumanRelations.API.pdb
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\HumanRelations.API.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\Polly.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\Domain.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\Domain.pdb

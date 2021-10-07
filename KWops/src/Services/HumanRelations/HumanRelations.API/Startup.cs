@@ -1,3 +1,4 @@
+using HumanRelations.API.Filters;
 using HumanRelations.Domain;
 using HumanRelations.Infrastructure;
 using HumanRelations.Logic;
@@ -41,7 +42,7 @@ namespace HumanRelations.API
             {
                 string connectionString = Configuration["ConnectionString"];
                 options.UseSqlServer(connectionString);
-                #if DEBUG
+#if DEBUG
                 options.UseLoggerFactory(LoggerFactory.Create(loggingBuilder => loggingBuilder.AddDebug()));
                 options.EnableSensitiveDataLogging();
 #endif
@@ -59,6 +60,10 @@ namespace HumanRelations.API
             services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddSingleton<IEmployeeFactory, Employee.Factory>();
+
+            services.AddSingleton(provider => new ApplicationExceptionFilterAttribute(provider.GetRequiredService<ILogger<ApplicationExceptionFilterAttribute>>()));
+            services.AddControllers(options => { options.Filters.AddService<ApplicationExceptionFilterAttribute>(); });
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
