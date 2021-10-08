@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using HumanRelations.API.Models;
+using Test;
 namespace HumanRelations.Api.Tests.Builders
 {
-    class EmployeeCreateModelBuilder
+    internal class EmployeeCreateModelBuilder : BuilderBase<EmployeeCreateModel>
     {
+        public EmployeeCreateModelBuilder()
+        {
+            Item = new EmployeeCreateModel
+            {
+                FirstName = Random.NextString(),
+                LastName = Random.NextString(),
+                StartDate = DateTime.Now
+            };
+        }
     }
 }
+

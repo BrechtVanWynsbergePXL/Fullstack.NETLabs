@@ -60,7 +60,7 @@ namespace HumanRelations.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(EmployeeCreateModel model)
         {
-            IEmployee hiredEmployee = await _employeeService.HireNewAsync(model.LastName, model.FirstName, model.StartTime);
+            IEmployee hiredEmployee = await _employeeService.HireNewAsync(model.LastName, model.FirstName, model.StartDate);
             var outputModel = _mapper.Map<EmployeeDetailModel>(hiredEmployee);
             return CreatedAtAction(nameof(GetByNumber), new { number = outputModel.Number }, outputModel);
         }

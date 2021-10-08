@@ -9,6 +9,6 @@ namespace HumanRelations.API.Models
     {
         public string FirstName { get; set; }
         public string  LastName { get; set; }
-        public DateTime StartTime { get; set; }
+        public DateTime StartDate { get; set; }
     }
 }
