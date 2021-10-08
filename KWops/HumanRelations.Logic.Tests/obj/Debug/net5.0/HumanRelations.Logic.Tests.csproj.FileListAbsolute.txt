@@ -110,3 +110,9 @@ C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\obj\Debug\net5.0\
 C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\obj\Debug\net5.0\ref\HumanRelations.Logic.Tests.dll
 C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\obj\Debug\net5.0\HumanRelations.Logic.Tests.pdb
 C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\obj\Debug\net5.0\HumanRelations.Logic.Tests.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Logic.Tests\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll

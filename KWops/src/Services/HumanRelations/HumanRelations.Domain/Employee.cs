@@ -7,6 +7,9 @@ namespace HumanRelations.Domain
 {
     internal class Employee : Entity, IEmployee
     {
+        private const int THREE_MONTH_NOTICE = 7;
+        private const int TWELVE_MONTH_NOTICE = 14;
+        private const int TWELVE_MONTH_PLUS_NOTICE = 28;
         public EmployeeNumber Number { get; private set; }
         public string LastName { get; private set; }
         public string FirstName { get; private set; }
@@ -18,6 +21,31 @@ namespace HumanRelations.Domain
         protected override IEnumerable<object> GetIdComponents()
         {
             yield return Number;
+        }
+
+        public void Dismiss(bool withNotice = true)
+        {
+            if (withNotice == false)
+            {
+                this.EndDate = DateTime.Now;
+            }
+
+            if (withNotice == true)
+            {
+                if (EndDate != null) { throw new ContractException(); }
+                if (this.StartDate.AddMonths(3) > DateTime.Now)
+                {
+                    this.EndDate = DateTime.Now.AddDays(THREE_MONTH_NOTICE);
+                }
+                else if (this.StartDate.AddYears(1) > DateTime.Now)
+                {
+                    this.EndDate = DateTime.Now.AddDays(TWELVE_MONTH_NOTICE);
+                }
+                else if (this.StartDate.AddYears(1) < DateTime.Now)
+                {
+                    this.EndDate = DateTime.Now.AddDays(TWELVE_MONTH_PLUS_NOTICE);
+                }
+            }
         }
 
         internal class Factory : IEmployeeFactory

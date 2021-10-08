@@ -9,5 +9,6 @@ namespace HumanRelations.Logic
         Task AddAsync(IEmployee newEmployee);
         Task<IEmployee> GetByNumberAsync(EmployeeNumber number);
         Task<int> GetNumberOfStartersOnAsync(DateTime startTime);
+        Task CommitTrackedChangesAsync();
     }
 }

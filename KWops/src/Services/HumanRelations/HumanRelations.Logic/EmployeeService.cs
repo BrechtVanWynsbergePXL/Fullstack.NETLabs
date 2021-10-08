@@ -1,4 +1,5 @@
 ﻿using HumanRelations.Domain;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,6 +16,14 @@ namespace HumanRelations.Logic
         {
             _employeeFactory = employeeFactory;
             _employeeRepository = employeeRepository;
+        }
+
+        public async Task DismissAsync(EmployeeNumber employeeNumber, bool withNotice)
+        {
+            IEmployee employeeToDismiss = await _employeeRepository.GetByNumberAsync(employeeNumber);
+            employeeToDismiss.Dismiss(withNotice);
+            await _employeeRepository.CommitTrackedChangesAsync();
+
         }
 
         public async Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)

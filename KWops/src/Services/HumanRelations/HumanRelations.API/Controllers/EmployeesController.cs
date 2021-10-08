@@ -64,5 +64,11 @@ namespace HumanRelations.API.Controllers
             var outputModel = _mapper.Map<EmployeeDetailModel>(hiredEmployee);
             return CreatedAtAction(nameof(GetByNumber), new { number = outputModel.Number }, outputModel);
         }
+
+        [HttpPost("{number}/dismiss")]
+        public async Task DismissAsync(EmployeeNumber employeeNumber, [FromQuery] bool withNotice = true)
+        {
+            await _employeeService.DismissAsync(employeeNumber, withNotice);
+        }
     }
 }

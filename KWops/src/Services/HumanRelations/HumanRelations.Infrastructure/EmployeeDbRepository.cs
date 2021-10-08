@@ -21,6 +21,11 @@ namespace HumanRelations.Infrastructure
             await _humanRelationsContext.AddAsync(newEmployee);
         }
 
+        public async Task CommitTrackedChangesAsync()
+        {
+            await _humanRelationsContext.SaveChangesAsync();
+        }
+
         public async Task<IEmployee> GetByNumberAsync(EmployeeNumber number)
         {
             return await _humanRelationsContext.Employee.FindAsync(number);
