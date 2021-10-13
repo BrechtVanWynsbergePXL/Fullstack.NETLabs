@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eSIeRw4aN7DteSo4b9gqa2rRuR5RHuhnUFqXlTHmxMHDRSvrHDx8EAIuq0eLqcmD/HF+VQQExQtiiDfYyW7yHQ==",
+  "dgSpecHash": "SYOaPUWgZebtnuP4crFpQLA3tjxLkTfSi7owRZrEGxdCGnIQOdK60/Ab/AZQBFP66LDPEPjbsrr1iFu38K9Oqg==",
   "success": true,
-  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

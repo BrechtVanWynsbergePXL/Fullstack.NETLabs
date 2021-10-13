@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = DevOps.Infrastructure
+build_property.ProjectDir = C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\

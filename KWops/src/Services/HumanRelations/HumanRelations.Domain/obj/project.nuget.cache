@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u62/O2TYJpdqKSWaMSUBKHpr5OQ4Q3NT9Yryvp1rIeukyV2P3mJz80Kmam3fyPnP6A27mr5z8AgPQIvxKXBsMw==",
+  "dgSpecHash": "FsZJjqPnuSE7GpwVmnewiwDWLbq5M4xIWBmNKzMbpsGEIwIuJeT21IJjJ2m3RAhQyHgpxjk1qW7fNaK3ELmB1w==",
   "success": true,
-  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
