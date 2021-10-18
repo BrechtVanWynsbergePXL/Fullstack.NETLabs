@@ -11,3 +11,16 @@ C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.D
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\Domain.dll
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\Domain.pdb
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.csproj.CopyComplete
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\HumanRelations.Domain.deps.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\HumanRelations.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\HumanRelations.Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.csproj.CopyComplete
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Domain\obj\Debug\netstandard2.1\HumanRelations.Domain.pdb

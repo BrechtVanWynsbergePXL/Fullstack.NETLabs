@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LPrYAcpAVI6XHC7n8BaUrp2ait64jjUCW8C3DlSOsahrKf9s70ZJ5F2wXpnmNgkRXsbbh1FW/pocFDVXlpXWqg==",
+  "dgSpecHash": "u6WAW9AcjZXhH8VQXe9q9Oc5pcKk7J9ut2RV6tZu70INv4RRlvz7pZO5QrxPtMYHChCxHOqjk/zLlv3fEWuWNw==",
   "success": true,
-  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Logic.Tests\\HumanRelations.Logic.Tests.csproj",
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Logic.Tests\\HumanRelations.Logic.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11901860\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

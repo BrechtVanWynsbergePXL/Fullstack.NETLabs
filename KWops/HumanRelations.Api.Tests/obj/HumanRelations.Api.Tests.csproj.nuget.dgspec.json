@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj": {}
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
         "projectName": "HumanRelations.Api.Tests",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -93,11 +93,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj"
               },
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj",
         "projectName": "HumanRelations.API",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -180,8 +180,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj"
               }
             }
           }
@@ -241,14 +241,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
         "projectName": "HumanRelations.Domain",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -269,8 +269,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj"
               }
             }
           }
@@ -303,14 +303,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
         "projectName": "HumanRelations.Infrastructure",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\HumanRelations.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -331,14 +331,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Domain\\Domain.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Domain\\Domain.csproj"
               },
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
               },
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj"
               }
             }
           }
@@ -381,14 +381,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
         "projectName": "HumanRelations.Logic",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -409,8 +409,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
-                "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
               }
             }
           }
@@ -449,14 +449,14 @@
         }
       }
     },
-    "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj": {
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-        "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\obj\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

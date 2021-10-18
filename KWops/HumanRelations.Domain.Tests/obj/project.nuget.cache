@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0lWmXQl40SVv1XlEfe3gsiMFoq0kgd+5+bXrEFZT1M6skhPV4btOPl3tp9H2kXnJOxL064fD/r/sWOzJfRRfvA==",
+  "dgSpecHash": "xavNEL3BH9MwsvLKm1INrFaiVNKDA35S7wLC9EnlkuaBTHwb/RxRY0+UPLp+6Qlrl6aFWvHFSh3dvPMfPOlyKQ==",
   "success": true,
-  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Domain.Tests\\HumanRelations.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Domain.Tests\\HumanRelations.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11901860\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

@@ -8291,11 +8291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
+      "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
       "projectName": "HumanRelations.Api.Tests",
-      "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
+      "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
       "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
-      "outputPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\obj\\",
+      "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -8316,11 +8316,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
-              "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj"
+            "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj": {
+              "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.API\\HumanRelations.API.csproj"
             },
-            "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj": {
-              "projectPath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\Test\\Test.csproj"
+            "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj": {
+              "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Test\\Test.csproj"
             }
           }
         }

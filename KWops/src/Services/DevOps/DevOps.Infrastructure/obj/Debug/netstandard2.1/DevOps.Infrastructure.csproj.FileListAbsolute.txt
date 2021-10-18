@@ -1,0 +1,10 @@
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\netstandard2.1\DevOps.Infrastructure.deps.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\netstandard2.1\DevOps.Infrastructure.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\netstandard2.1\DevOps.Infrastructure.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.pdb

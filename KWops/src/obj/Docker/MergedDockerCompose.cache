@@ -1,8 +1,8 @@
 services:
   humanrelations.api:
     build:
-      context: C:\Vakken\Fullstack .NET\Lab1\KWops\src
-      dockerfile: C:\Vakken\Fullstack .NET\Lab1\KWops\src\Services\HumanRelations\HumanRelations.API\Dockerfile
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services/HumanRelations/HumanRelations.API/Dockerfile
     depends_on:
       sqldata:
         condition: service_started
@@ -11,50 +11,25 @@ services:
       ASPNETCORE_URLS: https://+:443;http://+:80
       ConnectionString: Data Source=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
     image: humanrelationsapi
-    networks:
-      default: null
     ports:
-    - mode: ingress
+    - published: 5000
       target: 80
-      published: 5000
-      protocol: tcp
-    - mode: ingress
+    - published: 5001
       target: 443
-      published: 5001
-      protocol: tcp
     volumes:
-    - type: bind
-      source: C:\Users\11901860\AppData\Roaming/Microsoft/UserSecrets
-      target: /root/.microsoft/usersecrets
-      read_only: true
-      bind:
-        create_host_path: true
-    - type: bind
-      source: C:\Users\11901860\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
   sqldata:
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: Pass@word
     image: mrc.microsoft.com/mssql/server:2019-latest
-    networks:
-      default: null
     ports:
-    - mode: ingress
+    - published: 1433
       target: 1433
-      published: 1433
-      protocol: tcp
     volumes:
-    - type: volume
-      source: kwops-sqldata
-      target: /var/opt/mssql
-      volume: {}
-networks:
-  default:
-    name: dockercompose8017967007182631810_default
+    - kwops-sqldata:/var/opt/mssql:rw
+version: '3.4'
 volumes:
   kwops-sqldata:
-    name: dockercompose8017967007182631810_kwops-sqldata
+    external: false

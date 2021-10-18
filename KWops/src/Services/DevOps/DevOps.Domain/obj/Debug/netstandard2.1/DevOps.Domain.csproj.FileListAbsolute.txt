@@ -1,0 +1,13 @@
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\netstandard2.1\DevOps.Domain.deps.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\netstandard2.1\DevOps.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\netstandard2.1\DevOps.Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.csproj.CopyComplete
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\netstandard2.1\DevOps.Domain.pdb

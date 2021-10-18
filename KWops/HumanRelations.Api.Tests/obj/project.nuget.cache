@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UKNYUnbgOVe85oBt3koV1GiDhpfPi/nDLmF0CLU0EDW16tqME8GYoQ4qkjCq9DpgWYlbUIHhmHdyzqtq/ksvdA==",
+  "dgSpecHash": "RPAgDO+MePd1I17WTMTbEG7bsQwWo8DDQUoouVahTRWT44ilXR2kYuBSRpmKcmnCU3iQSmRH9jaU52ztpKhssA==",
   "success": true,
-  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Lab1\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\HumanRelations.Api.Tests\\HumanRelations.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11901860\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

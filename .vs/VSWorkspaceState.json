@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\KWops",
-    "\\KWops\\src"
+    "\\KWops\\src",
+    "\\KWops\\src\\Services",
+    "\\KWops\\src\\Services\\HumanRelations",
+    "\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic"
   ],
-  "SelectedNode": "\\KWops\\src\\KWops.sln",
+  "SelectedNode": "\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\EmployeeService.cs",
   "PreviewInSolutionExplorer": false
 }
