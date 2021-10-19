@@ -7,3 +7,4 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\n
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.csproj.CoreCompileInputs.cache
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.csproj.AssemblyReference.cache
