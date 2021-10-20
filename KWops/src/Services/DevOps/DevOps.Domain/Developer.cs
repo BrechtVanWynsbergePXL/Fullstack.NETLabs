@@ -32,7 +32,7 @@ namespace DevOps.Domain
 
         protected override IEnumerable<object> GetIdComponents()
         {
-            throw new NotImplementedException();
+            yield return TeamId;
         }
     }
 }

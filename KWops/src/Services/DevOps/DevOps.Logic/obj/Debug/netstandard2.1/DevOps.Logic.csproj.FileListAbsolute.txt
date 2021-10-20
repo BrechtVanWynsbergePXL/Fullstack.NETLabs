@@ -8,3 +8,8 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\n
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\bin\Debug\netstandard2.1\DevOps.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\bin\Debug\netstandard2.1\Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\bin\Debug\netstandard2.1\DevOps.Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\bin\Debug\netstandard2.1\Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic\obj\Debug\netstandard2.1\DevOps.Logic.csproj.CopyComplete

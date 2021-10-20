@@ -13,7 +13,6 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\D
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\ref\DevOps.Logic.Tests.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Logic.Tests.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
@@ -23,7 +22,6 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\D
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\nunit.framework.dll
-C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -99,3 +97,20 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\D
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\ref\DevOps.Logic.Tests.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\DevOps.Logic.Tests.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\DevOps.Logic.Tests.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.deps.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.runtimeconfig.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.runtimeconfig.dev.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\testcentric.engine.metadata.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Castle.Core.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Moq.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Domain.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Test.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Test.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Domain.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\DevOps.Logic.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Domain.pdb
