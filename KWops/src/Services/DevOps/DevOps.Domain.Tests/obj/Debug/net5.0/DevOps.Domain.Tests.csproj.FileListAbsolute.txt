@@ -7,6 +7,7 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\nunit.engine.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\nunit.engine.api.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\nunit.engine.core.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\testcentric.engine.metadata.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.deps.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.runtimeconfig.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\DevOps.Domain.Tests.runtimeconfig.dev.json
@@ -104,4 +105,3 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\obj\
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\obj\Debug\net5.0\ref\DevOps.Domain.Tests.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\obj\Debug\net5.0\DevOps.Domain.Tests.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\obj\Debug\net5.0\DevOps.Domain.Tests.genruntimeconfig.cache
-C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Domain.Tests\bin\Debug\net5.0\testcentric.engine.metadata.dll

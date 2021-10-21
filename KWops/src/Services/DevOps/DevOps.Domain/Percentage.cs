@@ -7,7 +7,13 @@ namespace DevOps.Domain
 {
     public class Percentage : ValueObject<Percentage>
     {
-        private readonly double _value;
+        public readonly double _value;
+
+        public Percentage()
+        {
+
+        }
+
         public Percentage(double value)
         {
             if(value < 0.0 || value > 1.0)
@@ -28,8 +34,7 @@ namespace DevOps.Domain
         }
 
         public static implicit operator string(Percentage value) => value.ToString();
-        public static implicit operator double(Percentage value) => value;
+        public static implicit operator double(Percentage value) => value._value;
         public static implicit operator Percentage(double value) => new Percentage(value);
-       
     }
 }

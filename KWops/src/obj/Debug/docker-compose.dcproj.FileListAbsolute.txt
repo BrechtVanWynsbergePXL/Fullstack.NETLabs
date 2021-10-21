@@ -31,11 +31,11 @@ C:\Vakken\Fullstack .NET\Lab1\KWops\src\bin\Debug\Domain.pdb
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Vakken\Fullstack .NET\Lab1\KWops\src\obj\Debug\docker-compose.dcproj.CopyComplete
-C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\appsettings.Development.json
-C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\appsettings.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.API.deps.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.API.runtimeconfig.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.API.runtimeconfig.dev.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\appsettings.Development.json
+C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\appsettings.json
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.API.exe
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.API.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\bin\Debug\HumanRelations.Infrastructure.dll

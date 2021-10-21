@@ -12,6 +12,11 @@ namespace DevOps.Domain
         public Percentage Rating { get; private set; }
         public Guid? TeamId { get; internal set; }
 
+        public Developer()
+        {
+
+        }
+
         private Developer(string id, string firstName, string lastName, Percentage rating)
         {
             Contracts.Require(!string.IsNullOrEmpty(id), "The identifier of a developer cannot be empty");

@@ -107,14 +107,14 @@ C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Domain.Tests\obj\Debug\net5.0
 C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Domain.Tests\obj\Debug\net5.0\HumanRelations.Domain.Tests.pdb
 C:\Vakken\Fullstack .NET\Lab1\KWops\HumanRelations.Domain.Tests\obj\Debug\net5.0\HumanRelations.Domain.Tests.genruntimeconfig.cache
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
-C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\testhost.exe
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\testhost.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\testhost.exe
+C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\NUnit3.TestAdapter.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\nunit.engine.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\nunit.engine.api.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\nunit.engine.core.dll
-C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\HumanRelations.Domain.Tests.deps.json
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\HumanRelations.Domain.Tests.runtimeconfig.json
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Domain.Tests\bin\Debug\net5.0\HumanRelations.Domain.Tests.runtimeconfig.dev.json
