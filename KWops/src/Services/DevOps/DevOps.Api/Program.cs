@@ -1,5 +1,7 @@
+using DevOps.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -22,5 +24,13 @@ namespace DevOps.Api
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+        private static void InitializeInfrastructure(IHost host)
+        {
+            using var scope = host.Services.CreateScope();
+            var services = scope.ServiceProvider;
+            var initializer = services.GetRequiredService<DevOpsDbInitializer>();
+            initializer.MigrateDatabase();
+            initializer.SeedData();
+        }
     }
 }
