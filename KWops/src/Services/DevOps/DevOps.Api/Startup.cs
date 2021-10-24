@@ -1,4 +1,5 @@
 using DevOps.Infrastructure;
+using HumanRelations.API.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -19,7 +20,7 @@ namespace DevOps.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, ApplicationExceptionFilterAttribute applicationExceptionFilterAttribute)
         {
             Configuration = configuration;
         }

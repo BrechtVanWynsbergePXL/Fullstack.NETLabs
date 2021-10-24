@@ -68,3 +68,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\obj\Debug\net
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\obj\Debug\net5.0\ref\DevOps.Api.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\obj\Debug\net5.0\DevOps.Api.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\obj\Debug\net5.0\DevOps.Api.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\bin\Debug\net5.0\AutoMapper.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api\bin\Debug\net5.0\Polly.dll

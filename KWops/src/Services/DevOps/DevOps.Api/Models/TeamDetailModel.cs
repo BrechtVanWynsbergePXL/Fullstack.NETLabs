@@ -11,12 +11,14 @@ namespace DevOps.Api.Models
         public Guid Id { get; set; }
         public string Name { get; set; }
         public IList<DeveloperDetailModel> Developers { get; set; }
+        
         private class MappingProfile : Profile
         {
             public MappingProfile()
             {
-                CreateMap<Team, TeamDetailModel>();
+                CreateMap<Team, TeamAssembleInputModel>();
             }
         }
+      
     }
 }
