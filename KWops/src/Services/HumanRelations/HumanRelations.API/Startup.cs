@@ -1,3 +1,4 @@
+using Api;
 using HumanRelations.API.Filters;
 using HumanRelations.Domain;
 using HumanRelations.Infrastructure;
@@ -64,6 +65,8 @@ namespace HumanRelations.API
             services.AddSingleton(provider => new ApplicationExceptionFilterAttribute(provider.GetRequiredService<ILogger<ApplicationExceptionFilterAttribute>>()));
             services.AddControllers(options => { options.Filters.AddService<ApplicationExceptionFilterAttribute>(); });
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddRabbitMQEventBus(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

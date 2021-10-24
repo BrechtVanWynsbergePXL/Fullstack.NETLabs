@@ -1,6 +1,9 @@
+using Api;
 using DevOps.Infrastructure;
 using DevOps.Logic;
+using DevOps.Logic.Events;
 using HumanRelations.API.Filters;
+using Logic.Events;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -61,6 +64,9 @@ namespace DevOps.Api
             services.AddControllers(options => { options.Filters.AddService<ApplicationExceptionFilterAttribute>(); });
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+            services.AddRabbitMQEventBus(Configuration);
+            services.AddScoped<EmployeeHiredEventHandler>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -83,6 +89,14 @@ namespace DevOps.Api
             {
                 endpoints.MapControllers();
             });
+
+            AddEventBusSubscriptions(app);
+        }
+
+        private void AddEventBusSubscriptions(IApplicationBuilder app)
+        {
+            IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<EmployeeHiredIntegrationEvent, EmployeeHiredEventHandler>();
         }
     }
 }
