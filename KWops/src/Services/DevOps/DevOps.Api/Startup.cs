@@ -1,4 +1,5 @@
 using DevOps.Infrastructure;
+using DevOps.Logic;
 using HumanRelations.API.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,7 +21,7 @@ namespace DevOps.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, ApplicationExceptionFilterAttribute applicationExceptionFilterAttribute)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
@@ -50,6 +51,16 @@ namespace DevOps.Api
                 options.EnableSensitiveDataLogging();
                 #endif
             });
+
+            services.AddScoped<DevOpsDbInitializer>();
+            services.AddScoped<DeveloperRepository>();
+            services.AddScoped<TeamRepository>();
+            services.AddScoped<ITeamService>();
+
+            services.AddSingleton(provider => new ApplicationExceptionFilterAttribute(provider.GetRequiredService<ILogger<ApplicationExceptionFilterAttribute>>()));
+            services.AddControllers(options => { options.Filters.AddService<ApplicationExceptionFilterAttribute>(); });
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
