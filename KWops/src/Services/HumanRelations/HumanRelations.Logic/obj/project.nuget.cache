@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jksRw/zjrP3hTns6sDxZ3WOQk9vek4kUYJ3Q936E/+tInkjbUuQbnzkbNHfTyK1I0qIn/HwSoDaY9etM57sT6A==",
+  "dgSpecHash": "DYfx/SzD5/FkOBs5C9bXZ0vhAybpCj+a7IIKCjhXlTnem2LhMaCqzyx7x8wies+r/vXs0hfuV3UWaQWGavZgXA==",
   "success": true,
   "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Logic\\HumanRelations.Logic.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\11901860\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",

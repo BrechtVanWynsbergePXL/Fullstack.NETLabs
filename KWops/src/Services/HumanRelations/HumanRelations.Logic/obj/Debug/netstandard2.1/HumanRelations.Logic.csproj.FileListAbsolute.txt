@@ -28,3 +28,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.L
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.csproj.CopyComplete
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Logic\obj\Debug\netstandard2.1\HumanRelations.Logic.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Logic\bin\Debug\netstandard2.1\Logic.pdb

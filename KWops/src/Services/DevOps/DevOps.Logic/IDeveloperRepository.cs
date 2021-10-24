@@ -7,5 +7,7 @@ namespace DevOps.Logic
     {
         Task<IReadOnlyList<Developer>> FindDevelopersWithoutATeamAsync();
         Task CommitTrackedChangesAsync();
+        Task<Developer> GetByIdAsync(string id);
+        Task AddAsync(Developer newDeveloper);
     }
 }

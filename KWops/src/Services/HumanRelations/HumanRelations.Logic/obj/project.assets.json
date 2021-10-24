@@ -78,6 +78,15 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -149,6 +158,19 @@
         },
         "runtime": {
           "bin/placeholder/HumanRelations.Domain.dll": {}
+        }
+      },
+      "Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
         }
       }
     }
@@ -230,6 +252,33 @@
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
         "microsoft.net.http.headers.2.2.0.nupkg.sha512",
         "microsoft.net.http.headers.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "System.Buffers/4.5.0": {
@@ -382,11 +431,17 @@
       "type": "project",
       "path": "../HumanRelations.Domain/HumanRelations.Domain.csproj",
       "msbuildProject": "../HumanRelations.Domain/HumanRelations.Domain.csproj"
+    },
+    "Logic/1.0.0": {
+      "type": "project",
+      "path": "../../../../Logic/Logic.csproj",
+      "msbuildProject": "../../../../Logic/Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "HumanRelations.Domain >= 1.0.0",
+      "Logic >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0"
     ]
   },
@@ -422,6 +477,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj"
+            },
             "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj": {
               "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\HumanRelations\\HumanRelations.Domain\\HumanRelations.Domain.csproj"
             }

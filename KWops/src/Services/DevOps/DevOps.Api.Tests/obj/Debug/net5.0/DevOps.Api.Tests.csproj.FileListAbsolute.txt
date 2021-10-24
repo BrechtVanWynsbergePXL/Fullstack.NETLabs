@@ -160,3 +160,10 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Deb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\DevOps.Infrastructure.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Domain.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\obj\Debug\net5.0\DevOps.Api.Tests.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Api.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Api.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net5.0\Logic.pdb

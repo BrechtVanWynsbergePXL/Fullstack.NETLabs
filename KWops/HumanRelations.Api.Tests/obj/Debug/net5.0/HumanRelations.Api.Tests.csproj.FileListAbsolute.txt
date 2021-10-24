@@ -314,3 +314,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\obj\Debug\net5.0\Hu
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\obj\Debug\net5.0\ref\HumanRelations.Api.Tests.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\obj\Debug\net5.0\HumanRelations.Api.Tests.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\obj\Debug\net5.0\HumanRelations.Api.Tests.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\bin\Debug\net5.0\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\HumanRelations.Api.Tests\bin\Debug\net5.0\Logic.pdb

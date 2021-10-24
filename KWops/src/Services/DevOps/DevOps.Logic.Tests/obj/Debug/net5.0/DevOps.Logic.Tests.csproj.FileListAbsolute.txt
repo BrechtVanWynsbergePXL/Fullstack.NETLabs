@@ -114,3 +114,6 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\D
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\ref\DevOps.Logic.Tests.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\DevOps.Logic.Tests.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\obj\Debug\net5.0\DevOps.Logic.Tests.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Logic.Tests\bin\Debug\net5.0\Logic.pdb

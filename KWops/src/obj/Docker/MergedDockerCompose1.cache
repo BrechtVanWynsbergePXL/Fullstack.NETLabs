@@ -1,0 +1,55 @@
+services:
+  devops.api:
+    build:
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services/DevOps/DevOps.Api/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=KWops.DevOps;UserId=sa;Password=Pass@word
+    image: devopsapi
+    ports:
+    - published: 6000
+      target: 80
+    - published: 6001
+      target: 443
+    volumes:
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  humanrelations.api:
+    build:
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services/HumanRelations/HumanRelations.API/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
+    image: humanrelationsapi
+    ports:
+    - published: 5000
+      target: 80
+    - published: 5001
+      target: 443
+    volumes:
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: mrc.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 1433
+      target: 1433
+    volumes:
+    - kwops-sqldata:/var/opt/mssql:rw
+version: '3.4'
+volumes:
+  kwops-sqldata:
+    external: false

@@ -65,6 +65,70 @@
         }
       }
     },
+    "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\11901860\\.nuget\\packages\\",
+        "outputPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11901860\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Services\\HumanRelations\\BuildingBlocks\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -397,6 +461,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Logic\\Logic.csproj"
+              },
               "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj": {
                 "projectPath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj"
               }
@@ -413,6 +480,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "System.Runtime": {
               "target": "Package",
               "version": "[4.3.1, )"

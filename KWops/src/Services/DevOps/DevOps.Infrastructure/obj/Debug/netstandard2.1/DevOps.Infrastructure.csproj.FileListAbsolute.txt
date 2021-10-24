@@ -15,3 +15,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\ob
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.csproj.CopyComplete
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\netstandard2.1\DevOps.Infrastructure.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\netstandard2.1\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\netstandard2.1\Logic.pdb

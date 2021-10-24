@@ -142,3 +142,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.A
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\ref\HumanRelations.API.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\HumanRelations.API.pdb
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.API\obj\Debug\net5.0\HumanRelations.API.genruntimeconfig.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.API\bin\Debug\net5.0\Logic.pdb

@@ -1,0 +1,10 @@
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\bin\Debug\netstandard2.1\Logic.deps.json
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\bin\Debug\netstandard2.1\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\bin\Debug\netstandard2.1\Logic.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.csproj.AssemblyReference.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.AssemblyInfoInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.AssemblyInfo.cs
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.csproj.CoreCompileInputs.cache
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\Logic\obj\Debug\netstandard2.1\Logic.pdb

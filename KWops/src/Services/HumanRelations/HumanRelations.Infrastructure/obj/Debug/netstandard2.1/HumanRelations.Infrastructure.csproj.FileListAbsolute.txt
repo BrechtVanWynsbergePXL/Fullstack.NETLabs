@@ -32,3 +32,5 @@ C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.I
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Infrastructure\obj\Debug\netstandard2.1\HumanRelations.Infrastructure.csproj.CopyComplete
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Infrastructure\obj\Debug\netstandard2.1\HumanRelations.Infrastructure.dll
 C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Infrastructure\obj\Debug\netstandard2.1\HumanRelations.Infrastructure.pdb
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Infrastructure\bin\Debug\netstandard2.1\Logic.dll
+C:\Vakken\Fullstack .NET\Labs\KWops\src\Services\HumanRelations\HumanRelations.Infrastructure\bin\Debug\netstandard2.1\Logic.pdb
