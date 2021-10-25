@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Services\HumanRelations\BuildingBlocks\Api\Api.csproj" />
     <ProjectReference Include="..\HumanRelations.Infrastructure\HumanRelations.Infrastructure.csproj" />
   </ItemGroup>
 

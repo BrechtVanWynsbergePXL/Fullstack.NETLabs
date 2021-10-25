@@ -20,3 +20,11 @@ services:
   sqldata:
     image: mrc.microsoft.com/mssql/server:2019-latest
      
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
+  identity.ui:
+    image: ${DOCKER_REGISTRY-}identityui
+    build: 
+      context: .
+      dockerfile: 
