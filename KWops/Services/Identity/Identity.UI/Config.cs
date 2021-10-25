@@ -19,40 +19,43 @@ namespace Identity.UI
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("scope1"),
-                new ApiScope("scope2"),
+                new ApiScope("devops.read", "Read acces on DevOps Api"),
+                new ApiScope("hr.read", "Read acces on HumanRelations Api"),
+                new ApiScope("manage", "Write access"),
             };
 
         public static IEnumerable<Client> Clients =>
             new Client[]
             {
-                // m2m client credentials flow client
                 new Client
                 {
-                    ClientId = "m2m.client",
-                    ClientName = "Client Credentials Client",
-
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-
-                    AllowedScopes = { "scope1" }
-                },
-
-                // interactive client using code flow + pkce
-                new Client
-                {
-                    ClientId = "interactive",
-                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
-                    
+                    ClientId = "kwops.cli",
+                    ClientName = "KWops Command Line Interface",
+                    ClientSecrets = 
+                    { 
+                        new Secret("SuperSecretClientSecret".Sha256())
+                    },
                     AllowedGrantTypes = GrantTypes.Code,
-
-                    RedirectUris = { "https://localhost:44300/signin-oidc" },
-                    FrontChannelLogoutUri = "https://localhost:44300/signout-oidc",
-                    PostLogoutRedirectUris = { "https://localhost:44300/signout-callback-oidc" },
-
+                    RedirectUris = { "http://localhost:7890/" },
                     AllowOfflineAccess = true,
-                    AllowedScopes = { "openid", "profile", "scope2" }
+                    AllowedScopes = 
+                    { 
+                        "openid", "profile", "devops.read", "hr.read"
+                    }
+                }
+            };
+
+        public static IEnumerable<ApiResource> ApiResources =>
+            new List<ApiResource>
+            {
+                new ApiResource("devops", "DevOps API")
+                {
+                    Scopes = {"devops.read", "manage"},
                 },
+                new ApiResource("hr", "Human Relations API")
+                {
+                    Scopes = {"hr.read", "manage"}
+                }
             };
     }
 }

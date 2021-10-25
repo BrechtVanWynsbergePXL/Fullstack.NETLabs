@@ -27,4 +27,6 @@ services:
     image: ${DOCKER_REGISTRY-}identityui
     build: 
       context: .
-      dockerfile: 
+      dockerfile: Services\Identity\Identity.UI\Dockerfile
+    depends_on:
+        - sqldata

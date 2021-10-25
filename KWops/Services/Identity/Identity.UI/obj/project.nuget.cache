@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "80q7fAVGrxX3ZJaz4r5LUp+0VrT0zvqjBOiBaQ54bUh6y2XeLgLBiKJqGw1KAZuDkn9IbQ7d7/jb9nqMtMHk+Q==",
+  "dgSpecHash": "XLmSB+5v1q03D2LxwrFvuQJyzmfa/BgcrD9dnsunpVGNtx6ud4GUK+hyYcgWEVZ9R5k8BNEd/OC80Tuled7e4g==",
   "success": true,
   "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops\\Services\\Identity\\Identity.UI\\Identity.UI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\11901860\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\identityserver4.storage\\4.0.0\\identityserver4.storage.4.0.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.5\\microsoft.aspnetcore.authentication.google.3.1.5.nupkg.sha512",
+    "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.20\\microsoft.aspnetcore.authentication.jwtbearer.3.1.20.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\11901860\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",

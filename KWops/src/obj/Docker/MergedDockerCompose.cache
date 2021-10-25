@@ -1,0 +1,85 @@
+services:
+  devops.api:
+    build:
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services/DevOps/DevOps.Api/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: DataSource=sqldata;Database=KWops.DevOps;User Id=sa;Password=Pass@word
+      EventBus__RabbitMQ__Host: rabbitmq
+      Urls__IdentityUrl: http://identity.ui
+    image: devopsapi
+    ports:
+    - published: 6000
+      target: 80
+    - published: 6001
+      target: 443
+    volumes:
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  humanrelations.api:
+    build:
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services/HumanRelations/HumanRelations.API/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
+      EventBus__RabbitMQ__Host: rabbitmq
+    image: humanrelationsapi
+    ports:
+    - published: 5000
+      target: 80
+    - published: 5001
+      target: 443
+    volumes:
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  identity.ui:
+    build:
+      context: C:\Vakken\Fullstack .NET\Labs\KWops\src
+      dockerfile: Services\Identity\Identity.UI\Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: DataSource=sqldata;Database=KWops.HumanRelations;UserId=sa;Password=Pass@word
+    image: identityui
+    ports:
+    - published: 9000
+      target: 80
+    - published: 9001
+      target: 443
+    volumes:
+    - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\11901860\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: mrc.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 1433
+      target: 1433
+    volumes:
+    - kwops-sqldata:/var/opt/mssql:rw
+version: '3.4'
+volumes:
+  kwops-sqldata:
+    external: false
