@@ -31,17 +31,31 @@ namespace Identity.UI
                 {
                     ClientId = "kwops.cli",
                     ClientName = "KWops Command Line Interface",
-                    ClientSecrets = 
-                    { 
-                        new Secret("SuperSecretClientSecret".Sha256())
-                    },
+                    ClientSecrets = { new Secret("SuperSecretClientSecret".Sha256()) },
                     AllowedGrantTypes = GrantTypes.Code,
                     RedirectUris = { "http://localhost:7890/" },
                     AllowOfflineAccess = true,
-                    AllowedScopes = 
-                    { 
-                        "openid", "profile", "devops.read", "hr.read"
-                    }
+                    AllowedScopes = { "openid", "profile", "devops.read", "hr.read" }
+                },
+                new Client
+                {
+                    ClientId = "swagger.devops",
+                    ClientName = "Swagger UI for DevOps Api",
+                    AllowedGrantTypes = GrantTypes.Code,
+                    RequireClientSecret = false,
+                    RedirectUris = {"https://localhost:6001/swagger/oauth2-redirect.html"},
+                    AllowedCorsOrigins = {"https://localhost:6001"},
+                    AllowedScopes = {"devops.read", "manage"}
+                },
+                new Client
+                {
+                    ClientId = "swagger.hr",
+                    ClientName = "Swagger UI for Human Relations Api",
+                    AllowedGrantTypes = GrantTypes.Code,
+                    RequireClientSecret = false,
+                    RedirectUris = {"https://localhost:5001/swagger/oauth2-redirect.html"},
+                    AllowedCorsOrigins = {"https://localhost:5001"},
+                    AllowedScopes = {"hr.read", "manage"}
                 }
             };
 

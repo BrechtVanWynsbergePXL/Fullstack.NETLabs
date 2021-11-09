@@ -9,7 +9,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
-      ConnectionString: DataSource=sqldata;Database=KWops.DevOps;User Id=sa;Password=Pass@word
+      ConnectionString: DataSource=sqldata;Database=KWops.DevOps;UserID=sa;Password=Pass@word
       EventBus__RabbitMQ__Host: rabbitmq
       Urls__IdentityUrl: http://identity.ui
     image: devopsapi
@@ -31,8 +31,9 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
-      ConnectionString: Data Source=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
+      ConnectionString: DataSource=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
       EventBus__RabbitMQ__Host: rabbitmq
+      Urls__IdentityUrl: http://identity.ui
     image: humanrelationsapi
     ports:
     - published: 5000

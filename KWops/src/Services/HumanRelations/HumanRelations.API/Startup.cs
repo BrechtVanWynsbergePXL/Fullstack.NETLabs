@@ -3,15 +3,19 @@ using HumanRelations.API.Filters;
 using HumanRelations.Domain;
 using HumanRelations.Infrastructure;
 using HumanRelations.Logic;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
@@ -67,6 +71,45 @@ namespace HumanRelations.API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddRabbitMQEventBus(Configuration);
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, 
+                options =>
+                {
+                string identityUrl = Configuration.GetValue<string>("Urls:IdentityUrl");
+                options.Authority = identityUrl;
+                options.Audience = "hr";
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = 
+                    new TokenValidationParameters
+                    {
+                        ValidateIssuer = false
+                    };
+                });
+
+            var readPolicy = new AuthorizationPolicyBuilder().AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                .RequireAuthenticatedUser()
+                .RequireClaim("scope", "hr.read")
+                .Build();
+            services.AddSingleton(provider => newApplicationExceptionFilterAttribute(provider.GetRequiredService <ILogger<ApplicationExceptionFilterAttribute>>()));
+            services.AddControllers(options =>
+            {
+                options.Filters.AddService<ApplicationExceptionFilterAttribute>();
+                options.Filters.Add(new AuthorizeFilter(readPolicy));
+            });
+
+            var writePolicy = new AuthorizationPolicyBuilder().AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                .RequireAuthenticatedUser()
+                .RequireClaim("scope", "manage")
+                .Build();
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("write", writePolicy);
+            });
+        }
+
+        private object newApplicationExceptionFilterAttribute(ILogger<ApplicationExceptionFilterAttribute> logger)
+        {
+            throw new NotImplementedException();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

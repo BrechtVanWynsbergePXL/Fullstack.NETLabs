@@ -2,6 +2,7 @@
 using HumanRelations.API.Models;
 using HumanRelations.Domain;
 using HumanRelations.Logic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,7 @@ namespace HumanRelations.API.Controllers
 
         [HttpGet]
         [Route("/employees/{number}")]
+        [Authorize(policy: "read")]
         public IActionResult GetEmployeeById(string number)
         {
             //IEmployee employee = (IEmployee)_employeeRepository.GetByNumberAsync(number);
@@ -40,17 +42,19 @@ namespace HumanRelations.API.Controllers
 
         [HttpPost]
         [Route("/employees")]
+        [Authorize(policy: "read")]
         public IActionResult PostEmployee(IEmployee employee)
         {
             return (IActionResult)_employeeRepository.AddAsync(employee);
         }
-            
+
         public Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)
         {
             return _employeeService.HireNewAsync(lastName, firstName, startDate);
         }
 
         [HttpGet("{number}")]
+        [Authorize(policy: "read")]
         public async Task<IActionResult> GetByNumber(string number)
         {
             IEmployee employee = await _employeeRepository.GetByNumberAsync(number);
@@ -58,6 +62,7 @@ namespace HumanRelations.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(policy: "write")]
         public async Task<IActionResult> Add(EmployeeCreateModel model)
         {
             IEmployee hiredEmployee = await _employeeService.HireNewAsync(model.LastName, model.FirstName, model.StartDate);
@@ -66,6 +71,7 @@ namespace HumanRelations.API.Controllers
         }
 
         [HttpPost("{number}/dismiss")]
+        [Authorize(policy:"write")]
         public async Task DismissAsync(EmployeeNumber employeeNumber, [FromQuery] bool withNotice = true)
         {
             await _employeeService.DismissAsync(employeeNumber, withNotice);

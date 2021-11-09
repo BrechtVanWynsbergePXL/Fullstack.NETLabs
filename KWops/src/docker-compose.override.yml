@@ -3,10 +3,11 @@ version: '3.4'
 services:
   humanrelations.api:
     environment:
-      - EventBus__RabbitMQ__Host=rabbitmq
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
-      - ConnectionString=Data Source=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
+        - ASPNETCORE_ENVIRONMENT=Development
+        - ASPNETCORE_URLS=https://+:443;http://+:80
+        - ConnectionString=DataSource=sqldata;Database=KWops.HumanRelations;UserID=sa;Password=Pass@word
+        - EventBus__RabbitMQ__Host=rabbitmq
+        - Urls__IdentityUrl=http://identity.ui
     ports:
       - "5000:80"
       - "5001:443"
@@ -26,7 +27,7 @@ services:
     environment:
         - ASPNETCORE_ENVIRONMENT=Development
         - ASPNETCORE_URLS=https://+:443;http://+:80
-        - ConnectionString=DataSource=sqldata;Database=KWops.DevOps;User Id=sa;Password=Pass@word
+        - ConnectionString=DataSource=sqldata;Database=KWops.DevOps;UserID=sa;Password=Pass@word
         - EventBus__RabbitMQ__Host=rabbitmq
         - Urls__IdentityUrl=http://identity.ui
     ports:

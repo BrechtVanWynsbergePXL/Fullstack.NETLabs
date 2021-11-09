@@ -59,18 +59,6 @@ namespace Identity.UI
             //    options.ClientId = "copy client ID from Google here";
             //    options.ClientSecret = "copy client secret from Google here";
             //});
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, 
-                options =>
-                {
-                    string identityUrl = Configuration.GetValue<string>("Urls:IdentityUrl");
-                    options.Authority = identityUrl;
-                    options.Audience = "devops";
-                    options.RequireHttpsMetadata = false;
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = false
-                    };
-                });
         }
 
         public void Configure(IApplicationBuilder app)
