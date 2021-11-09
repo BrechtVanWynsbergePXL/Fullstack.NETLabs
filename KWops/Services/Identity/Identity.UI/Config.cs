@@ -44,7 +44,7 @@ namespace Identity.UI
                     AllowedGrantTypes = GrantTypes.Code,
                     RequireClientSecret = false,
                     RedirectUris = {"https://localhost:6001/swagger/oauth2-redirect.html"},
-                    AllowedCorsOrigins = {"https://localhost:6001"},
+                    AllowedCorsOrigins = {"https://localhost:8001"},
                     AllowedScopes = {"devops.read", "manage"}
                 },
                 new Client
@@ -56,7 +56,17 @@ namespace Identity.UI
                     RedirectUris = {"https://localhost:5001/swagger/oauth2-redirect.html"},
                     AllowedCorsOrigins = {"https://localhost:5001"},
                     AllowedScopes = {"hr.read", "manage"}
+                },
+                new Client
+                {
+                    ClientId = "kwops.mobile",
+                    ClientName = "KWops mobile application",
+                    AllowedGrantTypes = GrantTypes.Code,
+                    ClientSecrets = { new Secret("MobileClientSecret".Sha256()) },
+                    RedirectUris = {"myapp://xamarincallback"},
+                    AllowedScopes = {"openid", "devops.read", "manage"}
                 }
+
             };
 
         public static IEnumerable<ApiResource> ApiResources =>

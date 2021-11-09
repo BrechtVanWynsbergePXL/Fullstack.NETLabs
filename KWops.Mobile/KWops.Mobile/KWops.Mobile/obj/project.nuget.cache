@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+eI1Kj7u+sy6XQQxnrhChHZksXOuEw5modWrjfquIhQpRZr6j6WnWhNRH+Eft7cp04nVVKPpnp61y5mBr99Jog==",
+  "success": true,
+  "projectFilePath": "C:\\Vakken\\Fullstack .NET\\Labs\\KWops.Mobile\\KWops.Mobile\\KWops.Mobile\\KWops.Mobile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11901860\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\11901860\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\11901860\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

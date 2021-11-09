@@ -14,9 +14,9 @@ services:
       Urls__IdentityUrl: http://identity.ui
     image: devopsapi
     ports:
-    - published: 6000
+    - published: 8000
       target: 80
-    - published: 6001
+    - published: 8001
       target: 443
     volumes:
     - C:\Users\11901860\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
